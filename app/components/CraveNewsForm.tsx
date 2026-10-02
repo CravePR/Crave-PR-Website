@@ -46,7 +46,7 @@ export default function CraveNewsForm() {
           className="text-white text-2xl"
           style={{ fontFamily: 'var(--font-display)' }}
         >
-          Welcome to the Crave News Network. We&apos;ll be in touch.
+          Almost there. Check your inbox to confirm your spot in the Crave News Network.
         </p>
       </div>
     )

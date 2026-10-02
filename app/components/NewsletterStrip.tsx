@@ -41,7 +41,7 @@ export default function NewsletterStrip() {
         </p>
 
         {status === 'success' ? (
-          <p className="text-gold font-body">You&apos;re in. Watch your inbox.</p>
+          <p className="text-gold font-body">Almost in. Check your inbox to confirm.</p>
         ) : (
           <>
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" aria-label="Newsletter signup form">

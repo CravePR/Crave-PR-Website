@@ -49,7 +49,7 @@ export default function NewsletterSignup() {
         <div>
           {status === 'success' ? (
             <p className="text-navy font-body text-lg" style={{ fontFamily: 'var(--font-display)' }}>
-              You&apos;re in. Watch your inbox.
+              Almost in. Check your inbox to confirm.
             </p>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5" aria-label="Newsletter signup form">
